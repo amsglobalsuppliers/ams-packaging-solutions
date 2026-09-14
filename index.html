@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AMS Packaging Solutions | Foodservice Packaging & Private Label Programs</title>
+<meta name="description" content="Foodservice packaging programs for distributors, restaurant groups and private-label buyers. Cups, lids, containers and custom branding at commercial volume.">
+<style>
+:root{--blue:#0788c5;--navy:#092f49;--ink:#12222d;--muted:#5e6b73;--line:#dbe5ea;--soft:#f3f7f9;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Montserrat,Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.5}
+a{text-decoration:none;color:inherit}img{max-width:100%;display:block}.wrap{width:min(1180px,calc(100% - 40px));margin:auto}
+.top{background:var(--navy);color:#dcebf2;font-size:13px;padding:9px 0}.top .wrap{display:flex;justify-content:space-between;gap:20px}
+nav{height:78px;display:flex;align-items:center;border-bottom:1px solid #e8eef1;background:rgba(255,255,255,.96);position:sticky;top:0;z-index:20}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:30px}.logo{height:43px;width:auto}.navlinks{display:flex;gap:27px;align-items:center;font-size:14px;font-weight:700}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 20px;border-radius:6px;font-weight:800;font-size:14px;border:1px solid var(--blue);background:var(--blue);color:#fff}
+.btn.alt{background:#fff;color:var(--navy);border-color:#cad8df}.hero{padding:72px 0 64px;background:linear-gradient(110deg,#fff 0%,#fff 55%,#edf6fa 55%,#edf6fa 100%)}
+.hero-grid{display:grid;grid-template-columns:1.03fr .97fr;gap:62px;align-items:center}.eyebrow{color:var(--blue);text-transform:uppercase;letter-spacing:.13em;font-size:12px;font-weight:900}
+h1{font-size:clamp(42px,5.3vw,72px);line-height:1.01;letter-spacing:-.045em;margin:16px 0 22px;color:var(--navy)}.lead{font-size:19px;color:#4c5e68;max-width:640px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.micro{margin-top:22px;font-size:13px;color:#66747c;font-weight:700}.hero-img{height:560px;width:100%;object-fit:cover;border-radius:10px;box-shadow:0 22px 55px rgba(12,46,65,.14)}
+.trust{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:24px 0}.trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.trust b{display:block;color:var(--navy);font-size:16px}.trust span{font-size:12px;color:var(--muted)}
+section{padding:90px 0}.section-head{max-width:760px;margin-bottom:42px}.section-head h2{font-size:clamp(32px,4vw,50px);letter-spacing:-.035em;line-height:1.05;margin:10px 0 14px;color:var(--navy)}.section-head p{font-size:17px;color:var(--muted)}
+.categories{display:grid;grid-template-columns:1fr 1fr;gap:24px}.card{border:1px solid var(--line);border-radius:9px;overflow:hidden;background:#fff}.card img{height:360px;width:100%;object-fit:cover}.card-body{padding:28px}.card h3{font-size:25px;margin:0 0 9px;color:var(--navy)}.card p{color:var(--muted);margin:0 0 18px}.link{color:var(--blue);font-weight:900;font-size:14px}
+.brand{background:var(--navy);color:#fff}.brand-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:60px;align-items:center}.brand h2{font-size:clamp(38px,5vw,64px);line-height:1;letter-spacing:-.04em;margin:12px 0 20px}.brand p{color:#c5d8e1;font-size:18px}.brand img{height:580px;width:100%;object-fit:cover;border-radius:8px}.brand .eyebrow{color:#62c7ef}
+.proof-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:55px;align-items:center}.proof-photo{height:520px;object-fit:cover;width:100%;border-radius:8px}.proof h2{font-size:46px;line-height:1.05;letter-spacing:-.035em;color:var(--navy);margin:12px 0 20px}.ticks{display:grid;gap:18px;margin-top:26px}.tick{padding-left:28px;position:relative}.tick:before{content:"✓";position:absolute;left:0;color:var(--blue);font-weight:900}.tick b{display:block;color:var(--navy)}.tick span{font-size:14px;color:var(--muted)}
+.process{background:var(--soft)}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.step{background:#fff;border:1px solid var(--line);padding:28px;border-radius:8px}.num{font-size:12px;color:var(--blue);font-weight:900;letter-spacing:.12em}.step h3{margin:35px 0 8px;color:var(--navy)}.step p{font-size:14px;color:var(--muted)}
+.qualify{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}.qualify h2{font-size:48px;line-height:1.05;letter-spacing:-.04em;color:var(--navy);margin:12px 0 18px}.qualify p{color:var(--muted)}
+form{background:#fff;border:1px solid var(--line);box-shadow:0 20px 50px rgba(15,47,64,.08);padding:30px;border-radius:9px}.fields{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field{display:grid;gap:6px}.field.full{grid-column:1/-1}label{font-size:12px;font-weight:800;color:#45545c}input,select,textarea{font:inherit;padding:13px;border:1px solid #cbd7dd;border-radius:5px;background:#fff;width:100%}textarea{min-height:110px;resize:vertical}button{cursor:pointer;width:100%;margin-top:14px}
+footer{background:#071f2e;color:#b9c9d1;padding:38px 0}.foot{display:flex;justify-content:space-between;gap:30px;align-items:center}.foot img{height:38px;filter:brightness(0) invert(1);opacity:.9}.foot small{display:block;max-width:620px}
+@media(max-width:850px){.navlinks a:not(.btn){display:none}.hero{padding:48px 0;background:#fff}.hero-grid,.brand-grid,.proof-grid,.qualify{grid-template-columns:1fr}.hero-img{height:390px}.trust-grid{grid-template-columns:1fr 1fr}.categories{grid-template-columns:1fr}.steps{grid-template-columns:1fr 1fr}.brand img{height:460px}.proof-photo{height:420px}}
+@media(max-width:520px){.wrap{width:min(100% - 28px,1180px)}.top .wrap{display:block}.top span:last-child{display:none}nav{height:68px}.logo{height:34px}.navlinks{gap:8px}.navlinks .btn{padding:10px 12px;font-size:12px}h1{font-size:44px}.lead{font-size:17px}.hero-img{height:320px}.trust-grid,.steps,.fields{grid-template-columns:1fr}.card img{height:280px}.brand img{height:380px}.proof h2,.qualify h2{font-size:38px}section{padding:68px 0}.foot{display:block}.foot img{margin-bottom:20px}}
+</style>
+</head>
+<body>
+<div class="top"><div class="wrap"><span>AMS Packaging Solutions · Foodservice Packaging Programs</span><span>Established 2014 · Florida, USA</span></div></div>
+<nav><div class="wrap">
+<img class="logo" src="assets/ams-packaging-logo.png" alt="AMS Packaging Solutions">
+<div class="navlinks"><a href="#capabilities">Capabilities</a><a href="#private-label">Private Label</a><a href="#quality">Quality</a><a class="btn" href="#contact">Request Packaging Options</a></div>
+</div></nav>
+
+<header class="hero"><div class="wrap hero-grid">
+<div>
+<div class="eyebrow">Foodservice packaging · commercial volume</div>
+<h1>Packaging built around your brand.</h1>
+<p class="lead">Cups, lids and foodservice containers for distributors, restaurant groups and private-label programs. Standard packaging when you need dependable supply. Custom branding when the package needs to carry your name.</p>
+<div class="actions"><a class="btn" href="#contact">Start a Packaging Program</a><a class="btn alt" href="#capabilities">Explore Capabilities</a></div>
+<div class="micro">Standard programs · Custom branding · Repeat production · Container-volume sourcing</div>
+</div>
+<img class="hero-img" src="assets/custom-cups.png" alt="Custom branded paper cups">
+</div></header>
+
+<div class="trust"><div class="wrap trust-grid">
+<div><b>Established 2014</b><span>Packaging experience built for repeat programs.</span></div>
+<div><b>U.S.-Based Company</b><span>Commercial support from Florida, USA.</span></div>
+<div><b>Private Label</b><span>Custom branding for qualified volume programs.</span></div>
+<div><b>Factory-to-Warehouse</b><span>Production and logistics coordinated for scale.</span></div>
+</div></div>
+
+<section id="capabilities"><div class="wrap">
+<div class="section-head"><div class="eyebrow">Packaging capabilities</div><h2>One supply partner. More packaging possibilities.</h2><p>Built for professional buyers who need more than an online catalog: defined specifications, repeatable case packs, commercial-volume production and a clear path to custom branding.</p></div>
+<div class="categories">
+<article class="card"><img src="assets/container-loaded.jpeg" alt="Foodservice packaging shipment loaded in container"><div class="card-body"><h3>Foodservice Containers</h3><p>Heat-resistant PP bowls, compartment trays, round containers, restaurant takeout, hot food and soup containers, and universal takeout formats.</p><a class="link" href="#contact">ASK ABOUT CONTAINER PROGRAMS →</a></div></article>
+<article class="card"><img src="assets/cups-and-lids.jpeg" alt="Paper hot cups with black lids"><div class="card-body"><h3>Cups & Beverage Packaging</h3><p>Paper hot cups, sip lids, pull-back lids and coordinated beverage packaging programs with standard and custom-branded options.</p><a class="link" href="#contact">ASK ABOUT CUP & LID PROGRAMS →</a></div></article>
+</div>
+</div></section>
+
+<section class="brand" id="private-label"><div class="wrap brand-grid">
+<div><div class="eyebrow">Private label & custom printing</div><h2>Your brand. On every order.</h2><p>Turn everyday foodservice packaging into a consistent extension of your brand. We support qualified buyers with custom-printed cups, branded container lids and coordinated private-label packaging programs.</p><div class="actions"><a class="btn" href="#contact">Discuss Custom Branding</a></div></div>
+<img src="assets/printed-lid.jpeg" alt="Custom printed food container lid">
+</div></section>
+
+<section class="proof" id="quality"><div class="wrap proof-grid">
+<img class="proof-photo" src="assets/cups-case.jpeg" alt="AMS Packaging Solutions production case">
+<div><div class="eyebrow">Program control</div><h2>Built for buyers who need repeatability.</h2><p>Packaging is only useful when the next production run arrives to the same defined program. AMS structures commercial programs around product specifications, case packs, production control and shipment documentation.</p>
+<div class="ticks">
+<div class="tick"><b>Defined product specifications</b><span>SKU-level product and matching-component identification.</span></div>
+<div class="tick"><b>Batch quality documentation</b><span>Inspection checkpoints can include appearance, capacity, leakage, stiffness and packing conformity.</span></div>
+<div class="tick"><b>Commercial packouts</b><span>Case and sleeve configurations designed for distribution and repeat purchasing.</span></div>
+<div class="tick"><b>Production-to-shipment coordination</b><span>A clearer path from approved specification to commercial delivery.</span></div>
+</div></div>
+</div></section>
+
+<section class="process"><div class="wrap">
+<div class="section-head"><div class="eyebrow">How we work</div><h2>A clear path from requirement to repeat order.</h2></div>
+<div class="steps">
+<div class="step"><div class="num">01 · REQUIREMENT</div><h3>Tell us what you need.</h3><p>Category, size, use case, destination and expected purchasing volume.</p></div>
+<div class="step"><div class="num">02 · SPECIFICATION</div><h3>Define the program.</h3><p>Product format, material, matching components, packout and branding requirements.</p></div>
+<div class="step"><div class="num">03 · APPROVAL</div><h3>Confirm before scale.</h3><p>Review applicable samples, artwork and program details before commercial production.</p></div>
+<div class="step"><div class="num">04 · PRODUCTION</div><h3>Produce & deliver.</h3><p>Coordinate production, quality documentation and shipment for repeat supply.</p></div>
+</div>
+</div></section>
+
+<section id="contact"><div class="wrap qualify">
+<div><div class="eyebrow">For qualified commercial buyers</div><h2>Let’s build your packaging program.</h2><p>Tell us what you are sourcing and how you buy. This page is designed for distributors, restaurant groups, foodservice operators and brands evaluating commercial-volume packaging programs.</p><p><strong>Need compostable packaging instead?</strong><br><a class="link" href="https://amscompostableusa.com/">VISIT AMS COMPOSTABLE →</a></p></div>
+<form action="mailto:orders@amscompostable.com" method="post" enctype="text/plain">
+<div class="fields">
+<div class="field"><label>Name</label><input name="Name" required></div>
+<div class="field"><label>Company</label><input name="Company" required></div>
+<div class="field"><label>Business Email</label><input type="email" name="Email" required></div>
+<div class="field"><label>Product Category</label><select name="Category"><option>Cups & Lids</option><option>Foodservice Containers</option><option>Private Label / Custom Printing</option><option>Multiple Categories</option></select></div>
+<div class="field"><label>Estimated Volume</label><select name="Volume"><option>Evaluating</option><option>Pallet / recurring</option><option>Container-volume program</option><option>Multiple containers / recurring</option></select></div>
+<div class="field"><label>Custom Branding?</label><select name="Branding"><option>Yes</option><option>No</option><option>Not sure yet</option></select></div>
+<div class="field full"><label>What are you sourcing?</label><textarea name="Message" placeholder="Product, size, destination, current or target volume..."></textarea></div>
+</div>
+<button class="btn" type="submit">Request Packaging Options</button>
+</form>
+</div></section>
+
+<footer><div class="wrap foot"><img src="assets/ams-packaging-logo.png" alt="AMS Packaging Solutions"><small>AMS Packaging Solutions · Foodservice packaging programs for commercial buyers. AMS Compostable remains the dedicated source for compostable foodservice packaging.</small></div></footer>
+</body></html>
